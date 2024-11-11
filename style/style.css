@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+
+
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 25px;
+    padding-left: 100px;
+    height: auto;
+    width: 200px;
+}
+#nav-bar {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding:20px 200px 10px 10px;
+    gap: 30px;
+    list-style: none;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px 100px 0px;
+}
+
+.header-intro{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+#hero_img {
+    width: 650px;
+    height: 300px;
+    border: 3px solid #266ccf;
+    border-radius: 15px;
+}
+
+#header-btn{
+    background-color:#3882f6;
+    max-width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
